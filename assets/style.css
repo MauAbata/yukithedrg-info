@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    background-image: linear-gradient(to right bottom, #9f75c0, #9a7fca, #9589d2, #8f93da, #8b9ce0, #839bdd, #7c9bd9, #759ad5, #6990c7, #5d85ba, #527bac, #47719f);
+    font-size: 14px;
+}
+
+#avatar {
+    border-radius: 50%;
+    margin: 3rem auto 1rem auto;
+    border: 2px solid white;
+    box-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 3px rgba(0,0,0,.5);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 4em;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 3px rgba(0,0,0,.5);
+}
+
+.link-tree ul {
+    margin: 0 auto;
+    width: 300px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-tree ul li {
+    margin: 1rem;
+    display: block;
+    text-indent: 0;
+}
+
+.link-tree ul li a {
+    padding: 0;
+    border-radius: 1.5rem;
+    height: 3rem;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+
+    width: 300px;
+}
+
+.link-tree ul li a .title {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    display: inline-block;
+    width: 30%;
+    font-size: 0.9rem;
+    line-height: 3rem;
+    vertical-align: middle;
+}
+
+.link-tree ul li a .username {
+    display: inline-block;
+    width: 60%;
+    line-height: 3rem;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
